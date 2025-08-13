@@ -92,8 +92,8 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
               <InfoRow icon={<FiUser className="h-5 w-5" />} label="Name" value="Rajat Goyal" />
               <InfoRow icon={<FiMail className="h-5 w-5" />} label="Email" value="rajat.09x@gmail.com" href="mailto:rajat.09x@gmail.com" />
-              <InfoRow icon={<FiMapPin className="h-5 w-5" />} label="Location" value="India" />
-              <InfoRow icon={<FiCalendar className="h-5 w-5" />} label="Status" value="Available for work" />
+{/*               <InfoRow icon={<FiMapPin className="h-5 w-5" />} label="Location" value="India" /> */}
+{/*               <InfoRow icon={<FiCalendar className="h-5 w-5" />} label="Status" value="Available for work" /> */}
             </div>
 
             {/* <a
