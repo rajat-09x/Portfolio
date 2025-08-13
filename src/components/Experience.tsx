@@ -40,11 +40,11 @@ export default function ExperienceEducation() {
       location: 'Hyderabad, India',
       duration: 'June 2023 – Present',
       bullets: [
-        'Led the scaling of Microsoft’s internal security scanner from 40k to 1.5M+ subscriptions, increasing scan throughput from 10k/hr to 300k/hr and enabling seamless multi-tenant coverage.',
-        'Reduced Azure resource inventory fetch time from 2–3 hours to 30 minutes by migrating from ARM APIs to Azure Resource Graph (ARG), significantly improving performance and lowering operational costs.',
-        'Designed and implemented a scalable centralized authorization system for next-gen Azure security scanner using a pub-sub model with Dapr, enabling seamless RBAC integration across multiple microservices.',
-        'Implemented policy-based and data-driven RBAC in the current Azure tenant security scanner, powering secure access control and data isolation across 1.5M Azure subscriptions.',
-        'Developed Secure Assist, an AI-powered RAG chatbot for Microsoft’s S360 system, integrating APIs and document search to deliver real-time, context-aware KPI insights and remediation steps, including natural language to KQL translation for security analysts.',
+        'Scaled Microsoft’s internal Azure security scanning platform from 40K to 1.5M+ subscriptions, increasing processing throughput from 10K/hr to 300K/hr and enabling seamless multi-tenant, distributed scanning.',
+        'Delivered an Attack Graph–powered risk scoring pipeline with in-product graph visualization, enabling engineers to trace risk propagation and prioritize remediation by severity, criticality, and graph exposure, focusing action on the top 1–2% of 40M+ resources.',
+        'Designed and implemented a centralized authorization framework for the next-gen Azure security scanning platform, providing scalable role-based access control (RBAC) and seamless integration across multiple microservices at the scale of ~2M Azure subscriptions.',
+        'Built core microservices for the next-gen scanning platform, including a generic event management service, RBAC processor, and supporting components to enable modular, extensible, and event-driven architecture.',
+        'Implemented policy-based and data-driven RBAC in the current Azure Tenant Security scanner, powering secure access control and data isolation across 1.5M+ Azure subscriptions.'
       ],
     },
     {
